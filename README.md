@@ -7,7 +7,7 @@
 * This repo provided our used scripts to construct and analyze such corpora.
 
 ## 1. Named Entity Recognition Scripts (NER)
-This [\NER](\NER) directory contains our used script to construct our BiodivNER corpus.
+This [/NER](/NER) directory contains our used script to construct our BiodivNER corpus.
 BiodivNER is doubly annotated corpus. This means 2 annotator per file are assigned.
 1. `ner_agreement.py` calculates Cohen's Kappa score for the double annotation of the corpus
    1. Avg. agreement score for 4 annotator/2 annotator pairs = 0.71
@@ -22,7 +22,7 @@ BiodivNER is doubly annotated corpus. This means 2 annotator per file are assign
    5. \# Unique Mentions (Unique Annotations)
 
 ## 2. Relation Extraction Scripts (RE)
-The [\RE](\RE) directory lists our scripts to create and analyze BiodivRE corpus.
+The [/RE](/RE) directory lists our scripts to create and analyze BiodivRE corpus.
 BiodivRE is build ontop of the BiodivNER corpus.
 1. `re_init_corpus.py` 
    1. transforms the BiodivNER data into horizontal sequences (a.k.a transpose of BiodivNER)
