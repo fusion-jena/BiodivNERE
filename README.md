@@ -1,9 +1,9 @@
-# BiodivNERE
+# BiodivNERE [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6458503.svg)](https://doi.org/10.5281/zenodo.6458503)
 * BiodivNER+RE are two corpora that are meant to be for Named Entity Recognition (NER) and Relation Extraction (RE) tasks.
 * Such corpora are designed for machine learning technique 
   * NER -> TokenClassification Models
   * RE -> SequenceClassification Models
-* You can download [BiodivNER corpus](https://zenodo.org) and [BiodivRE corpus](https://zenodo.org) directly from Zenodo. 
+* You can download [BiodivNER corpus](https://doi.org/10.5281/zenodo.6458503) and [BiodivRE corpus](https://doi.org/10.5281/zenodo.6458503) directly from Zenodo. 
 * This repo provided our used scripts to construct and analyze such corpora.
 
 ## 1. Named Entity Recognition Scripts (NER)
