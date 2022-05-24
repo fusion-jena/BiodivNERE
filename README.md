@@ -22,8 +22,8 @@ BiodivNER is doubly annotated corpus. This means 2 annotator per file are assign
    5. \# Unique Mentions (Unique Annotations)
 
 ## 2. Relation Extraction Scripts (RE)
-The [/RE](/RE) directory lists our scripts to create and analyze BiodivRE corpus.
-BiodivRE is build ontop of the BiodivNER corpus.
+* At first, we provide our analysis and gold-standard results for the [BiodiversityQuestions (Löffler et.al)](https://github.com/fusion-jena/QuestionsMetadataBiodiv) under this [/biodivQs_analysis](/biodivQs_analysis) where we provide a complete list of relations annotations under the `goldStandard.json` and the relations summary is given by the `summary_biodiv_questions_relation_annotation.xlsx`.
+* The [/RE](/RE) directory lists our scripts to create and analyze BiodivRE corpus. Such that, BiodivRE is build ontop of the BiodivNER corpus.
 1. `re_init_corpus.py` 
    1. transforms the BiodivNER data into horizontal sequences (a.k.a transpose of BiodivNER)
    2. create variations for sentences with more than 2 named entities, to ensure that a sentence has exactly 2 named entities.
@@ -41,6 +41,29 @@ BiodivRE is build ontop of the BiodivNER corpus.
 4. `re_statistics.py` analyzes the BiodivRE corpus, it counts the binary and multi-label relation inside the corpus.
 
 ## Citation
+
+Dataset Citation
+```
+@dataset{nora_abdelmageed_2022_6575865,
+  author       = {Nora Abdelmageed and
+                  Felicitas Löffler and
+                  Leila Feddoul and
+                  Alsayed Algergawy and
+                  Sheeba Samuel and
+                  Jitendra Gaikwad and
+                  Anahita Kazem and
+                  Birgitta König-Ries},
+  title        = {{BiodivNERE: Gold Standard Corpora for Named Entity 
+                   Recognition and Relation Extraction in
+                   Biodiversity Domain}},
+  month        = apr,
+  year         = 2022,
+  note         = {Added BiodivRE Multi-class corpus},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.6575865},
+  url          = {https://doi.org/10.5281/zenodo.6575865}
+}
+```
 
 ## Acknowledgement
 * The authors thank the Carl Zeiss Foundation for the financial support of the project "A Virtual Werkstatt for Digitization in the Sciences (K3, P5)" within the scope of the program line "Breakthroughs: Exploring Intelligent Systems for Digitization -  explore the basics, use applications". 
