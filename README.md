@@ -1,4 +1,4 @@
-# BiodivNERE [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6458503.svg)](https://doi.org/10.5281/zenodo.6458503)
+# BiodivNERE [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6575865.svg)](https://doi.org/10.5281/zenodo.6575865)
 * BiodivNER+RE are two corpora that are meant to be for Named Entity Recognition (NER) and Relation Extraction (RE) tasks.
 * Such corpora are designed for machine learning technique 
   * NER -> TokenClassification Models
